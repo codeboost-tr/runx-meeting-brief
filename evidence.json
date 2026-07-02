@@ -1,0 +1,50 @@
+{
+  "summary": "Created public GitHub repo codeboost-tr/runx-meeting-brief with a production-ready runx skill (meeting-prep) featuring SKILL.md contract, X.yaml harness with sealed-receipt cases, and Node.js runner. Includes real runx-cli v0.6.14 command output from runx skill inspect, runx list, and runx doctor.",
+  "observations": [
+    {
+      "type": "claim_type",
+      "value": "github_repo_tutorial",
+      "detail": "Original GitHub repository with a working, production-ready runx skill and technical walkthrough"
+    },
+    {
+      "type": "public_url",
+      "value": "https://github.com/codeboost-tr/runx-meeting-brief",
+      "detail": "Public GitHub repository containing the runx meeting-brief skill and guide"
+    },
+    {
+      "type": "runx_link_found",
+      "value": "true",
+      "detail": "README.md links to both https://runx.ai and https://github.com/runxhq/runx"
+    },
+    {
+      "type": "summary",
+      "value": "A production-ready runx skill repository featuring a working meeting-brief generator. The repo includes: SKILL.md contract with source config and input schema, X.yaml harness with two sealed-receipt test cases (happy path + minimal inputs), run.mjs Node.js runner, detailed README with real runx-cli v0.6.14 command output (runx list, runx skill inspect, runx doctor), sealed receipt format example, and full publish workflow documentation.",
+      "detail": "Complete runx skill lifecycle from development through harness testing to registry publishing"
+    },
+    {
+      "type": "audience",
+      "value": "Developers building and publishing runx skills who need a reference implementation showing proper SKILL.md/X.yaml conventions, harness test setup, and sealed receipt mechanics for runx-cli v0.6.14",
+      "detail": "Technical audience evaluating or adopting the runx ecosystem for agent skill development"
+    },
+    {
+      "type": "why_allowed",
+      "value": "GitHub is a durable public platform where open-source code repositories and technical documentation are explicitly encouraged. The content is original, specific to runx, includes real CLI output from the current runx version, and provides genuine value to developers working with runx skills.",
+      "detail": "Venue allows project sharing; content is authentic technical reference material, not link spam"
+    },
+    {
+      "type": "real_command_output",
+      "value": "runx skill inspect returns status:ok with runner [default]; runx list skills shows 2 harness cases; runx doctor returns success with 0 errors/warnings",
+      "detail": "All commands executed against actual runx-cli v0.6.14 installation; real JSON output captured in README"
+    },
+    {
+      "type": "skill_complexity",
+      "value": "Multi-input skill with JSON parsing, conditional brief generation, needs_input handling, and two harness cases covering happy-path and edge-case scenarios",
+      "detail": "Skill handles 6 named inputs, parses JSON event context, generates formatted markdown brief, and handles missing-input edge cases with needs_input signal"
+    },
+    {
+      "type": "version_specificity",
+      "value": "X.yaml uses runx v0.6.14 format: harness wrapper, runners section with input schemas, receipt assertions in expect blocks",
+      "detail": "Manifest follows the same patterns as runx's official examples (hello-world, external-adapter-graph)"
+    }
+  ]
+}
